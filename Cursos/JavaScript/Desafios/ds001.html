@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR ou Estrangeiro?</title>
+</head>
+<body>
+    <h1>Você é Brasileiro ou Estrangeiro?</h1>
+    <p>Descubra agora</p>
+    <input type="text" name="txtinput" id="txtinput" placeholder="Digite seu país de origem">
+    <button onclick="btnverificar()">Verificar</button>
+    <div id="res"></div>
+
+    <script>
+        function btnverificar() {
+            const txt = window.document.getElementById('txtinput')
+            const res = window.document.getElementById('res')
+            const pais = txt.value.trim().toLowerCase();
+            if (pais === 'brasil') {
+                res.innerHTML = `<p>Morando em ${pais} você é <strong>BRASILEIRO!</strong></p>`
+            } else {
+                res.innerHTML = `<P>Morando em ${pais} você é <strong>ESTRANGEIRO!</strong></P>`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF_8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #103778, #0593A2, #fa5215);
+}
+
+.perfil {
+    text-align: center;
+}
+
+.eu {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.808);
+    width: 550px;
+    padding: 10px;
+    margin: auto;
+}
+
+.contato{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 550px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #cf4b37;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+}
+
+h2 {
+    color: #103778;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.158);
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #0000001c;
+}
+
+a {
+    color: #cf4b37;
+}
