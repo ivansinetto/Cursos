@@ -1,0 +1,33 @@
+@charset "UTF8";
+
+/* 
+    id="oi" em CSS = #oi
+    class="oi" em CSS = .oi
+*/
+
+body {
+    background-color: rgb(84, 216, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(1, 43, 29);
+    background-color: green;
+    color: white;
+}
+
+#principal {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(3, 90, 61);
+}
+
+.secundário {
+    color: black;
+}
+
+.trexo {
+    color: blueviolet;
+}
