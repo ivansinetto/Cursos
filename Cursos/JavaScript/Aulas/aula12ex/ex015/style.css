@@ -1,0 +1,43 @@
+/*
+#CC2323 cor erro
+#407BFF cor apresentação
+#7E57C2 cor bebês
+#92E3A9 cor crianças
+#FFC727 cor adolescentes
+#C53F3F cor adultos
+#90CAF9 cor idosos
+*/
+
+body {
+    background: rgb(52, 126, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+#txtano {
+    width: 100px;
+}
