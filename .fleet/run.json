@@ -1,6 +1,9 @@
 {
     "configurations": [
-        {"type": "",
+        {
+            "type": "node",
+            "name": "Node.js configuration",
+            "file": ".fleet/",
         },
         
     ]
