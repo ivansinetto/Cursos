@@ -8,6 +8,7 @@
 #90CAF9 cor idosos
 */
 
+/*
 body {
     background: rgb(52, 126, 236);
     font: normal 15pt Arial;
@@ -40,4 +41,107 @@ img {
 
 #txtano {
     width: 100px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+#res {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+section {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#res {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    input[type="button"] {
+        width: 100%;
+    }
 }
