@@ -18,9 +18,15 @@ section {
 }
 
 footer{
-    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: rgb(231, 223, 223);
     text-align: center;
     font-style: italic;
+    width: 500px;
 }
 
 #res {
@@ -31,4 +37,39 @@ footer{
     width: 200px;
     margin: auto;
     box-shadow: 1px 1px 5px #0c00004f;
+}
+
+#txtn {
+    border: none;
+    background-color: rgb(220, 226, 233);
+    border-radius: 3px;
+    width: 80px;
+}
+
+button {
+    border: none;
+    background-color: rgb(220, 226, 233);
+    border-radius: 3px;
+}
+
+#container {
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width : 414px) {
+    section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 250px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    }
+
+    footer {
+        width: 250px;
+        margin: auto;
+        margin-top: 10px;
+    }
 }
