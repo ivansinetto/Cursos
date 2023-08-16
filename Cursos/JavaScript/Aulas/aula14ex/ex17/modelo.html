@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Passos</h1>
+        <h1>Tabuada Online</h1>
     </header>
     <section>
-        <div id="input_container">
-            <input type="number" id="num">
+        <div>
+            <p>
+            Número: <input type="number" name="numero" id="txtn">
+            <button onclick="calcular()">Calcular</button>
+            </p>
         </div>
-        <div id="button_container">
-            <button id="button" onclick="verificar()">Verificar</button>
+        <div id="res">
+            
         </div>
-        <div id="resposta"></div>
     </section>
     <footer>
         <p>&copy; CursoEmVideo</p>
