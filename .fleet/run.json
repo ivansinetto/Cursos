@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "name": "node configuration",
+            "file": "Cursos/JavaScript/Aulas/aula14ex/ex16/index.html",
+        },
+        
+    ]
+}
